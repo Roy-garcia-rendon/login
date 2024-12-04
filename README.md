@@ -20,3 +20,8 @@ incluyo un documento llamado conexion ese es para conectar tu base de datos con 
 /* tener en tu index el siguiente codigo 
 include("conexion.php");
 include("login.php");*/
+
+
+en el caso de que el dodigo de coneccion no funcione usa este codigo en conexion:
+![image](https://github.com/user-attachments/assets/4d93e41d-e4ce-4e01-8762-c7d4d182ea0c)
+
