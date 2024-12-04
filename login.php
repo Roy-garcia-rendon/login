@@ -4,8 +4,8 @@ if(!empty($_POST["login"])){/* si los campos se encuentran vacios*/
         echo '<div class="alert alert-danger">los campos estan vacios</div>';
     } else {
         $usuario=$_POST["usuario"];
-        $clave=$_POST["password"]; /* se consulta en la base de datos si usuarios y clave coinsiden y se encuantran en la base de datos*/
-        $sql=$conexion->$query("SELECT * from usuarios where usuarios='$usuarioa' and clave='$clave' ");/* remplasar por tus registros de base de datos*/
+        $password=$_POST["password"]; /* se consulta en la base de datos si usuarios y clave coinsiden y se encuantran en la base de datos*/
+        $sql=$conexion->$query("SELECT * from usuarios where usuarios='$usuarioa' and password='$password' ");/* remplasar por tus registros de base de datos*/
         /* si los datos eccisten se realiza la siguinte accion*/
         if($datos=$sql->fetch_object()){
             /* se redirecciona al archivo deseado */
