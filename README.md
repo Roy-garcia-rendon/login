@@ -1,4 +1,6 @@
-siste de login php,
+Sistema de login php.
+
+
 estructura de la base de datos necesaria:
 ![image](https://github.com/user-attachments/assets/2ef399a0-3674-4add-9151-239e651291e6) 
 
