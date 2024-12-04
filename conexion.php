@@ -3,7 +3,7 @@
 
 class mysqlconex{ /*clase*/
     public function conex(){ /*Funcion publica*/
-  /*variable mysqli funcion*/   $conexion=mysqli_connect("localhost","root","","siyeca"); /*parametros*/
+  /*variable mysqli funcion*/   $conexion=mysqli_connect("localhost","root","","saym"); /*parametros*/
     return $conexion; /*return*/
  }
 }
