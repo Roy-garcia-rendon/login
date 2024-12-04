@@ -7,7 +7,7 @@ estructura de la base de datos necesaria:
 tu documento index necesita de un boton llamado login para que en empty funsione 
 ![image](https://github.com/user-attachments/assets/1385f7ff-9b41-4dc5-aed2-56721e09ecb0)
 
-los datos iran dentro de un fromulario con el metodo post y tener que incluir los documentos conexxion y login ejemplo:
+los datos iran dentro de un fromulario con el metodo post y tener que incluir los documentos conexion y login ejemplo:
 ![image](https://github.com/user-attachments/assets/10e61ce6-a67f-413c-8ee2-1f0362225657)
 
 (controlador es login)
